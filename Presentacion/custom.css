@@ -1,4 +1,11 @@
-table,td,tr,th {border:none!important}
+.border {
+        border: 1px solid #080808;
+    }
+
+table.noborders, .noborders tr, .noborders td {
+        border:0;
+        border:none!important
+    }
 
 container {
     text-align: center;
@@ -30,3 +37,23 @@ img {
     -moz-transition: -moz-transform 0.2s;
     -o-transition: -o-transform 0.2s;
 }
+
+
+.slides .header{
+  position:absolute;
+  top: 0%;
+  left: 20%;
+}
+.slides .footer{
+  position:absolute;
+  bottom: 50%;
+  left: -50%;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
